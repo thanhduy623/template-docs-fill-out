@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>
+        Công nhận Đảng viên chính thức
+    </title>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <link
+        rel="stylesheet"
+        href="../assets/css/chuyen-chinh.css">
+
+</head>
+
+<body>
+
+<div class="container py-4">
+
+    <div class="hero-banner">
+
+        <h1>
+            BIÊN BẢN
+        </h1>
+
+        <h3>
+            CÔNG NHẬN ĐẢNG VIÊN CHÍNH THỨC
+        </h3>
+
+    </div>
+
+    <form id="formChuyenChinh">
+
+        <div
+            class="row"
+            id="formFields">
+        </div>
+
+    </form>
+
+    <div class="export-group mt-4">
+
+        <button
+            type="button"
+            class="btn btn-success"
+            onclick="exportFileChuyenChinhChiDoan()">
+
+            Xuất Biên bản Chi đoàn
+
+        </button>
+
+        <button
+            type="button"
+            class="btn btn-primary ms-2"
+            onclick="exportFileChuyenChinhDoanKhoa()">
+
+            Xuất Biên bản Đoàn khoa
+
+        </button>
+
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/pizzip@3.2.0/dist/pizzip.min.js"></script>
+
+<script src="https://unpkg.com/docxtemplater@3.43.0/build/docxtemplater.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.5/dist/FileSaver.min.js"></script>
+
+<script src="../configs/fields/chuyen-chinh.js"></script>
+
+<script src="../js/utils/form-generator.js"></script>
+
+<script src="../js/utils/validation.js"></script>
+
+<script src="../js/utils/word-export.js"></script>
+
+<script src="../js/chuyen-chinh/chuyen-chinh.js"></script>
+
+</body>
+
+</html>
