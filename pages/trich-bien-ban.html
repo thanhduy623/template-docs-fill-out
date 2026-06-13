@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>
+        Trích biên bản chuyển sinh hoạt Đảng
+    </title>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container py-4">
+
+    <div class="text-center mb-4">
+
+        <h1>
+            TRÍCH BIÊN BẢN
+        </h1>
+
+        <h4>
+            Chuyển sinh hoạt Đảng
+        </h4>
+
+    </div>
+
+    <form id="formTrichBienBan">
+
+        <div
+            class="row"
+            id="formFields">
+        </div>
+
+    </form>
+
+    <div class="mt-5">
+
+        <h4>
+            DANH SÁCH ĐẢNG VIÊN
+        </h4>
+
+        <table
+            class="table table-bordered align-middle"
+            id="tableDangVien">
+
+            <thead>
+
+            <tr>
+
+                <th width="80">
+                    STT
+                </th>
+
+                <th>
+                    Họ tên đảng viên
+                </th>
+
+                <th width="220">
+                    Đợt tốt nghiệp
+                </th>
+
+                <th width="150">
+                    Thao tác
+                </th>
+
+            </tr>
+
+            </thead>
+
+            <tbody>
+            </tbody>
+
+        </table>
+
+        <button
+            type="button"
+            class="btn btn-secondary"
+            onclick="addDangVien()">
+
+            Thêm đảng viên
+
+        </button>
+
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/pizzip@3.2.0/dist/pizzip.min.js"></script>
+
+<script src="https://unpkg.com/docxtemplater@3.43.0/build/docxtemplater.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.5/dist/FileSaver.min.js"></script>
+
+<script src="../configs/fields/trich-bien-ban.js"></script>
+
+<script src="../js/utils/form-generator.js"></script>
+
+<script src="../js/utils/word-export.js"></script>
+
+<script src="../js/trich-bien-ban/trich-bien-ban.js"></script>
+
+</body>
+
+</html>
