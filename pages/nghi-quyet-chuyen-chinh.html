@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>
+        Nghị quyết chuyển chính
+    </title>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container py-4">
+
+    <div class="text-center mb-4">
+
+        <h1>
+            NGHỊ QUYẾT
+        </h1>
+
+        <h4>
+            Đề nghị công nhận đảng viên chính thức
+        </h4>
+
+    </div>
+
+    <form id="formNghiQuyet">
+
+        <div
+            class="row"
+            id="formFields">
+        </div>
+
+    </form>
+
+    <div class="mt-4">
+
+        <button
+            type="button"
+            class="btn btn-primary"
+            onclick="exportDocument()">
+
+            Xuất Word
+
+        </button>
+
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/pizzip@3.2.0/dist/pizzip.min.js"></script>
+
+<script src="https://unpkg.com/docxtemplater@3.43.0/build/docxtemplater.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.5/dist/FileSaver.min.js"></script>
+
+<script src="../configs/fields/nghi-quyet-chuyen-chinh.js"></script>
+
+<script src="../js/utils/form-generator.js"></script>
+
+<script src="../js/utils/word-export.js"></script>
+
+<script src="../js/nghi-quyet-chuyen-chinh/nghi-quyet-chuyen-chinh.js"></script>
+
+</body>
+
+</html>
