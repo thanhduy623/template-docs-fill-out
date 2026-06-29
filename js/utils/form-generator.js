@@ -132,6 +132,17 @@ function createInput(field) {
     input.name =
         field.key;
 
+    if (
+        field.hasOwnProperty(
+            "default"
+        )
+    ) {
+
+        input.value =
+            field.default;
+
+    }
+
     wrapper.appendChild(label);
 
     wrapper.appendChild(input);

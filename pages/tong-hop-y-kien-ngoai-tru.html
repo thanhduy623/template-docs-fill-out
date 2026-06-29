@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>
+        Tổng hợp ý kiến - Ngoại trú
+    </title>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container py-4">
+
+    <div class="text-center mb-4">
+
+        <h1>
+            TỔNG HỢP Ý KIẾN
+        </h1>
+
+        <h4>
+            Đảng viên dự bị - Ngoại trú
+        </h4>
+
+    </div>
+
+    <form
+        id="formTongHopYKien">
+
+        <div
+            class="row"
+            id="formFields">
+        </div>
+
+    </form>
+
+    <div class="mt-4">
+
+        <button
+            type="button"
+            class="btn btn-primary"
+            onclick="exportDocument()">
+
+            Xuất Word
+
+        </button>
+
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/pizzip@3.2.0/dist/pizzip.min.js"></script>
+
+<script src="https://unpkg.com/docxtemplater@3.43.0/build/docxtemplater.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.5/dist/FileSaver.min.js"></script>
+
+<script src="../configs/fields/tong-hop-y-kien-ngoai-tru.js"></script>
+
+<script src="../js/utils/form-generator.js"></script>
+
+<script src="../js/utils/word-export.js"></script>
+
+<script src="../js/tong-hop-y-kien-ngoai-tru/tong-hop-y-kien-ngoai-tru.js"></script>
+
+</body>
+
+</html>
