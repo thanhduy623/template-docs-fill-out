@@ -6,13 +6,6 @@ const FORM_FIELDS = [
     },
 
     {
-        key: "NQ_SO",
-        label: "Số nghị quyết",
-        type: "text",
-        col: 1
-    },
-
-    {
         key: "NQ_NGAY",
         label: "Ngày ký",
         type: "text",
@@ -57,6 +50,13 @@ const FORM_FIELDS = [
     {
         type: "title",
         label: "ĐẢNG VIÊN"
+    },
+
+    {
+        key: "NQ_SO",
+        label: "Số nghị quyết",
+        type: "text",
+        col: 1
     },
 
     {
