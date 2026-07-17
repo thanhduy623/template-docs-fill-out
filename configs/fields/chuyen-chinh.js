@@ -72,7 +72,8 @@ const FORM_FIELDS = [
     {
         key: "HOC_KY",
         label: "Học kỳ",
-        type: "text",
+        type: "select",
+        options: ["HK1/", "HK2/","năm học "],
         col: 2
     },
 
